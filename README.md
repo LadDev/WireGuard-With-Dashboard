@@ -23,13 +23,13 @@ Next, the process of automatic installation and configuration of the environment
 Once installed, the server will automatically start. 
 
 After starting the server, you can open the admin panel page at: 
-http://your_ip:10086 using login **admin** and password **admin**.
+``http://your_ip:10086`` using login ``**admin**`` and password ``**admin**``.
 
-Before adding new users, you must change the external IP address to the IP of your local machine so that the user can connect. To do this, on the http://your_ip:10086/settings page, change the Peer Remote Endpoint line to the IP of your server.
+Before adding new users, you must change the external IP address to the IP of your local machine so that the user can connect. To do this, on the ``http://your_ip:10086/settings`` page, change the Peer Remote Endpoint line to the IP of your server.
 
 Also do not forget to change the login and password from the administration panel.
 
-This completes the configuration, you can add users, to do this go to: http://your_ip:10086/configuration/wg0.
+This completes the configuration, you can add users, to do this go to: ``http://your_ip:10086/configuration/wg0``.
 
 In case of rebooting the local machine, it is necessary to manually start the docker container, for this you need to execute the command:
 
